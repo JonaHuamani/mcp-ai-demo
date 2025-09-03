@@ -1,0 +1,1045 @@
+{
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Premium Store - Tu destino exclusivo",
+      "blocks": {
+        "campaigns": {
+          "current": [
+            {
+              "id": "black-friday",
+              "name": "Black Friday Exclusivo",
+              "discount": "50%",
+              "endDate": "2025-08-30",
+              "categories": ["tech", "gaming"]
+            },
+            {
+              "id": "cyber-week",
+              "name": "Cyber Week Premium",
+              "discount": "40%",
+              "endDate": "2025-09-05",
+              "categories": ["moda", "fitness"]
+            },
+            {
+              "id": "vip-permanent",
+              "name": "VIP Members Only",
+              "discount": "30%",
+              "permanent": true,
+              "minTier": "enterprise"
+            }
+          ],
+          "seasonal": {
+            "morning": {
+              "name": "Madrugador",
+              "bonus": "20% extra 6-10am",
+              "products": ["café", "desayunos", "energía"]
+            },
+            "afternoon": {
+              "name": "Tarde Activa",
+              "bonus": "Puntos dobles",
+              "products": ["deportes", "fitness", "outdoor"]
+            },
+            "evening": {
+              "name": "Happy Hour",
+              "bonus": "Envío gratis",
+              "products": ["entretenimiento", "hogar", "relax"]
+            },
+            "night": {
+              "name": "Nocturno",
+              "bonus": "Flash sales cada hora",
+              "products": ["gaming", "streaming", "snacks"]
+            }
+          }
+        },
+        "categories": {
+          "trending": [
+            {
+              "name": "Tecnología",
+              "icon": "💻",
+              "items": 1250,
+              "growth": "+45%",
+              "topProducts": ["iPhone 15", "MacBook Pro", "AirPods"]
+            },
+            {
+              "name": "Moda Sostenible",
+              "icon": "♻️",
+              "items": 890,
+              "growth": "+120%",
+              "topProducts": ["Eco Jeans", "Bamboo Shirts"]
+            },
+            {
+              "name": "Gaming Pro",
+              "icon": "🎮",
+              "items": 2100,
+              "growth": "+67%",
+              "topProducts": ["PS5", "RTX 4090", "Steam Deck"]
+            },
+            {
+              "name": "Fitness Tech",
+              "icon": "⌚",
+              "items": 650,
+              "growth": "+89%",
+              "topProducts": ["Apple Watch", "Garmin", "Whoop"]
+            }
+          ],
+          "byTimeOfDay": {
+            "morning": [
+              "Café Premium",
+              "Desayunos Saludables",
+              "Energizantes",
+              "Yoga"
+            ],
+            "afternoon": [
+              "Oficina",
+              "Productividad",
+              "Almuerzo Gourmet",
+              "Break Time"
+            ],
+            "evening": ["Cena Especial", "Vinos", "Relax", "Spa en Casa"],
+            "night": [
+              "Gaming Nocturno",
+              "Streaming 4K",
+              "Snacks Premium",
+              "Insomnio"
+            ]
+          },
+          "byTier": {
+            "free": ["Básicos", "Ofertas", "Outlet", "Liquidación"],
+            "basic": [
+              "Populares",
+              "Tendencias",
+              "Recomendados",
+              "Best Sellers"
+            ],
+            "pro": ["Premium", "Edición Limitada", "Colecciones", "Pre-orden"],
+            "enterprise": [
+              "Exclusivos VIP",
+              "Lujo",
+              "Personalizado",
+              "Concierge"
+            ]
+          }
+        },
+        "personalizedContent": {
+          "interests": {
+            "moda": {
+              "featured": "Colección Primavera 2025",
+              "brands": ["Zara", "H&M", "Mango", "Forever 21"],
+              "events": ["Fashion Week Lima", "Desfile Virtual VIP"]
+            },
+            "fitness": {
+              "featured": "Reto 30 días Transform",
+              "brands": ["Nike", "Adidas", "Under Armour", "Lululemon"],
+              "events": ["Maratón Lima 42K", "CrossFit Games Peru"]
+            },
+            "gaming": {
+              "featured": "Torneo eSports Latam",
+              "brands": ["Razer", "Logitech", "HyperX", "SteelSeries"],
+              "events": ["LAN Party Mensual", "Beta Testing VIP"]
+            },
+            "tecnología": {
+              "featured": "AI & Future Tech Expo",
+              "brands": ["Apple", "Samsung", "Google", "Microsoft"],
+              "events": ["Keynote Exclusivo", "Demo Day Startups"]
+            },
+            "deportes": {
+              "featured": "Copa América 2025",
+              "brands": ["Nike", "Adidas", "Puma", "Under Armour"],
+              "events": ["Marathon Lima", "Torneo Tenis ATP"]
+            },
+            "hogar": {
+              "featured": "Smart Home Revolution",
+              "brands": ["IKEA", "Sodimac", "Promart"],
+              "events": ["Feria del Hogar", "Black Friday Muebles"]
+            }
+          }
+        },
+        "deviceOptimizations": {
+          "mobile": {
+            "features": [
+              "One-tap checkout",
+              "App exclusivos -20%",
+              "Swipe para explorar"
+            ],
+            "layout": "vertical-priority",
+            "ctaSize": "large",
+            "recommended": ["Apps", "Mobile Gaming", "Auriculares Bluetooth"]
+          },
+          "desktop": {
+            "features": [
+              "Vista comparativa",
+              "Multi-ventana",
+              "Filtros avanzados"
+            ],
+            "layout": "grid-masonry",
+            "ctaSize": "standard",
+            "recommended": ["Monitores 4K", "Teclados Mecánicos", "Webcams HD"]
+          }
+        },
+        "localeContent": {
+          "es-PE": {
+            "currency": "S/",
+            "shipping": "Envío gratis Lima > S/99",
+            "holidays": ["Fiestas Patrias", "Navidad", "Cyber Wow"],
+            "greetings": ["¡Qué tal!", "¡Hola!", "¡Bienvenido!"]
+          },
+          "en-US": {
+            "currency": "$",
+            "shipping": "Free shipping over $50",
+            "holidays": ["Black Friday", "Cyber Monday", "Christmas"],
+            "greetings": ["Hello!", "Welcome!", "Hey there!"]
+          },
+          "pt-BR": {
+            "currency": "R$",
+            "shipping": "Frete grátis acima de R$150",
+            "holidays": ["Black Friday", "Natal", "Carnaval"],
+            "greetings": ["Olá!", "Bem-vindo!", "Oi!"]
+          }
+        },
+        "benefits": {
+          "enterprise": [
+            "Conserje personal 24/7",
+            "Envío en 2 horas",
+            "Acceso sala VIP física",
+            "Eventos exclusivos mensuales",
+            "Cashback 25%",
+            "Línea directa CEO"
+          ],
+          "pro": [
+            "Envío gratis ilimitado",
+            "Devoluciones 90 días",
+            "Acceso preventas",
+            "Cashback 15%",
+            "Soporte prioritario"
+          ],
+          "basic": [
+            "Envío gratis +$50",
+            "Devoluciones 30 días",
+            "Ofertas exclusivas",
+            "Cashback 10%"
+          ],
+          "free": [
+            "Envío gratis +$100",
+            "Devoluciones 15 días",
+            "Newsletter exclusiva",
+            "Acceso a ofertas"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "categories",
+      "title": "Categorías Premium - Explora por Intereses",
+      "blocks": {
+        "mainCategories": [
+          {
+            "name": "Tecnología",
+            "description": "Lo último en gadgets y electrónicos",
+            "subcategories": ["Smartphones", "Laptops", "Audio", "Smart Home"],
+            "topBrands": ["Apple", "Samsung", "Sony", "Xiaomi"],
+            "priceRange": { "min": 50, "max": 5000 },
+            "icon": "💻",
+            "items": 1250,
+            "growth": "+45%"
+          },
+          {
+            "name": "Moda",
+            "description": "Tendencias y estilos para toda ocasión",
+            "subcategories": ["Ropa", "Calzado", "Accesorios", "Joyería"],
+            "topBrands": ["Zara", "H&M", "Nike", "Adidas"],
+            "priceRange": { "min": 20, "max": 500 },
+            "icon": "👗",
+            "items": 890,
+            "growth": "+120%"
+          },
+          {
+            "name": "Gaming",
+            "description": "Todo para gamers profesionales y casuales",
+            "subcategories": [
+              "Consolas",
+              "Juegos",
+              "Periféricos",
+              "Sillas Gamer"
+            ],
+            "topBrands": ["PlayStation", "Xbox", "Razer", "Logitech"],
+            "priceRange": { "min": 30, "max": 2000 },
+            "icon": "🎮",
+            "items": 2100,
+            "growth": "+67%"
+          },
+          {
+            "name": "Fitness",
+            "description": "Equipamiento y ropa deportiva premium",
+            "subcategories": ["Cardio", "Pesas", "Yoga", "Running"],
+            "topBrands": ["Nike", "Adidas", "Under Armour", "Lululemon"],
+            "priceRange": { "min": 25, "max": 800 },
+            "icon": "🏃‍♂️",
+            "items": 650,
+            "growth": "+89%"
+          }
+        ],
+        "seasonalCategories": {
+          "summer": [
+            "Piscinas",
+            "Ropa de playa",
+            "Protector solar",
+            "Bebidas refrescantes"
+          ],
+          "winter": [
+            "Calefacción",
+            "Ropa de invierno",
+            "Bebidas calientes",
+            "Decoración navideña"
+          ],
+          "spring": [
+            "Jardinería",
+            "Deportes al aire libre",
+            "Alergias",
+            "Ropa ligera"
+          ],
+          "fall": ["Decoración", "Ropa de temporada", "Libros", "Café gourmet"]
+        },
+        "trendingNow": [
+          {
+            "name": "Smart Home",
+            "growth": "+200%",
+            "products": ["Alexa", "Google Home", "Philips Hue"]
+          },
+          {
+            "name": "Sostenibilidad",
+            "growth": "+150%",
+            "products": ["Productos eco-friendly", "Ropa reciclada"]
+          },
+          {
+            "name": "Bienestar",
+            "growth": "+180%",
+            "products": ["Meditación", "Suplementos", "Fitness tracking"]
+          }
+        ]
+      }
+    },
+    {
+      "slug": "deals",
+      "title": "Ofertas y Promociones Exclusivas",
+      "blocks": {
+        "dailyDeals": [
+          {
+            "product": "iPhone 15 Pro",
+            "originalPrice": 1200,
+            "salePrice": 999,
+            "stock": 50,
+            "category": "tech",
+            "endTime": "2025-08-30T23:59:59Z",
+            "badge": "🔥 Flash Sale"
+          },
+          {
+            "product": "Nike Air Max",
+            "originalPrice": 150,
+            "salePrice": 89,
+            "stock": 200,
+            "category": "fitness",
+            "endTime": "2025-08-31T23:59:59Z",
+            "badge": "⚡ 40% OFF"
+          },
+          {
+            "product": "PlayStation 5",
+            "originalPrice": 500,
+            "salePrice": 449,
+            "stock": 30,
+            "category": "gaming",
+            "endTime": "2025-09-01T23:59:59Z",
+            "badge": "🎮 Gaming Week"
+          },
+          {
+            "product": "MacBook Air M2",
+            "originalPrice": 1200,
+            "salePrice": 999,
+            "stock": 25,
+            "category": "tech",
+            "endTime": "2025-08-29T23:59:59Z",
+            "badge": "💻 Tech Tuesday"
+          }
+        ],
+        "flashSales": {
+          "morning": {
+            "category": "Café y Desayuno",
+            "discount": "40%",
+            "time": "6:00-10:00"
+          },
+          "afternoon": {
+            "category": "Deportes",
+            "discount": "30%",
+            "time": "12:00-18:00"
+          },
+          "evening": {
+            "category": "Entretenimiento",
+            "discount": "25%",
+            "time": "18:00-22:00"
+          },
+          "night": {
+            "category": "Gaming",
+            "discount": "35%",
+            "time": "22:00-6:00"
+          }
+        },
+        "memberTiers": {
+          "free": {
+            "benefits": [
+              "Envío gratis en compras +$100",
+              "5% cashback",
+              "Acceso a ofertas básicas"
+            ]
+          },
+          "basic": {
+            "benefits": [
+              "Envío gratis en compras +$50",
+              "10% cashback",
+              "Ofertas exclusivas",
+              "Soporte por email"
+            ]
+          },
+          "pro": {
+            "benefits": [
+              "Envío gratis siempre",
+              "15% cashback",
+              "Acceso VIP",
+              "Regalos mensuales",
+              "Soporte prioritario"
+            ]
+          },
+          "enterprise": {
+            "benefits": [
+              "Todo incluido",
+              "25% cashback",
+              "Conserje personal",
+              "Eventos exclusivos",
+              "Línea directa CEO"
+            ]
+          }
+        },
+        "upcomingEvents": [
+          {
+            "name": "Black Friday",
+            "date": "2025-11-28",
+            "discount": "Hasta 70%"
+          },
+          {
+            "name": "Cyber Monday",
+            "date": "2025-12-01",
+            "discount": "Hasta 60%"
+          },
+          {
+            "name": "Boxing Day",
+            "date": "2025-12-26",
+            "discount": "Hasta 50%"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "trending",
+      "title": "Tendencias del Momento - Lo Más Popular",
+      "blocks": {
+        "hotProducts": [
+          {
+            "name": "AirPods Pro 3",
+            "category": "tech",
+            "price": 249,
+            "rating": 4.8,
+            "reviews": 1250,
+            "trend": "🔥 Trending",
+            "features": ["Noise Cancellation", "Spatial Audio", "USB-C"]
+          },
+          {
+            "name": "Nike ZoomX Vaporfly",
+            "category": "fitness",
+            "price": 250,
+            "rating": 4.9,
+            "reviews": 890,
+            "trend": "⚡ Fastest",
+            "features": ["Carbon Fiber Plate", "ZoomX Foam", "Lightweight"]
+          },
+          {
+            "name": "Sony WH-1000XM5",
+            "category": "tech",
+            "price": 399,
+            "rating": 4.7,
+            "reviews": 2100,
+            "trend": "🎧 Best Audio",
+            "features": ["30h Battery", "Multi-Device", "Touch Controls"]
+          }
+        ],
+        "trendingTopics": [
+          {
+            "topic": "AI & Machine Learning",
+            "growth": "+300%",
+            "related": ["ChatGPT", "Midjourney", "Copilot"]
+          },
+          {
+            "topic": "Sostenibilidad",
+            "growth": "+250%",
+            "related": ["Eco-friendly", "Circular Economy", "Green Tech"]
+          },
+          {
+            "topic": "Metaverse",
+            "growth": "+180%",
+            "related": ["VR", "AR", "Digital Twins"]
+          },
+          {
+            "topic": "Wellness Tech",
+            "growth": "+220%",
+            "related": ["Fitness Trackers", "Meditation Apps", "Sleep Tech"]
+          }
+        ],
+        "socialProof": {
+          "influencers": [
+            {
+              "name": "TechGuru",
+              "followers": "2.5M",
+              "niche": "Technology",
+              "rating": 4.9
+            },
+            {
+              "name": "FitnessPro",
+              "followers": "1.8M",
+              "niche": "Fitness",
+              "rating": 4.8
+            },
+            {
+              "name": "StyleIcon",
+              "followers": "3.2M",
+              "niche": "Fashion",
+              "rating": 4.7
+            }
+          ],
+          "userReviews": [
+            {
+              "product": "iPhone 15",
+              "rating": 4.9,
+              "review": "Increíble cámara y rendimiento"
+            },
+            {
+              "product": "Nike Air Max",
+              "rating": 4.8,
+              "review": "Muy cómodas para correr"
+            },
+            {
+              "product": "PlayStation 5",
+              "rating": 4.9,
+              "review": "Gráficos espectaculares"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "fitness",
+      "title": "Fitness & Wellness - Tu Transformación Comienza Aquí",
+      "blocks": {
+        "mainCategories": [
+          {
+            "name": "Cardio",
+            "description": "Equipamiento para entrenamiento cardiovascular",
+            "subcategories": ["Treadmills", "Bicicletas", "Elípticas", "Remos"],
+            "topBrands": ["NordicTrack", "Bowflex", "Sole", "Life Fitness"],
+            "priceRange": { "min": 200, "max": 3000 },
+            "icon": "🏃‍♂️",
+            "items": 450,
+            "growth": "+120%"
+          },
+          {
+            "name": "Pesas y Fuerza",
+            "description": "Todo para entrenamiento de fuerza y musculación",
+            "subcategories": ["Mancuernas", "Barras", "Racks", "Máquinas"],
+            "topBrands": ["Bowflex", "PowerBlock", "Rogue", "Eleiko"],
+            "priceRange": { "min": 50, "max": 2000 },
+            "icon": "💪",
+            "items": 320,
+            "growth": "+85%"
+          },
+          {
+            "name": "Yoga y Pilates",
+            "description": "Equipamiento para flexibilidad y equilibrio",
+            "subcategories": ["Mats", "Blocks", "Straps", "Bolsters"],
+            "topBrands": ["Lululemon", "Manduka", "Gaiam", "Jade"],
+            "priceRange": { "min": 20, "max": 300 },
+            "icon": "🧘‍♀️",
+            "items": 180,
+            "growth": "+200%"
+          },
+          {
+            "name": "Running",
+            "description": "Todo para corredores profesionales y amateur",
+            "subcategories": ["Zapatillas", "Ropa", "GPS", "Accesorios"],
+            "topBrands": ["Nike", "Adidas", "Brooks", "Asics"],
+            "priceRange": { "min": 80, "max": 500 },
+            "icon": "👟",
+            "items": 280,
+            "growth": "+95%"
+          }
+        ],
+        "trainingPrograms": {
+          "beginner": [
+            {
+              "name": "Couch to 5K",
+              "duration": "8 semanas",
+              "difficulty": "Principiante"
+            },
+            {
+              "name": "30 Days of Yoga",
+              "duration": "30 días",
+              "difficulty": "Principiante"
+            },
+            {
+              "name": "Strength Basics",
+              "duration": "12 semanas",
+              "difficulty": "Principiante"
+            }
+          ],
+          "intermediate": [
+            {
+              "name": "Half Marathon Prep",
+              "duration": "16 semanas",
+              "difficulty": "Intermedio"
+            },
+            {
+              "name": "Power Yoga Flow",
+              "duration": "8 semanas",
+              "difficulty": "Intermedio"
+            },
+            {
+              "name": "Muscle Building",
+              "duration": "16 semanas",
+              "difficulty": "Intermedio"
+            }
+          ],
+          "advanced": [
+            {
+              "name": "Marathon Elite",
+              "duration": "20 semanas",
+              "difficulty": "Avanzado"
+            },
+            {
+              "name": "Advanced Powerlifting",
+              "duration": "24 semanas",
+              "difficulty": "Avanzado"
+            },
+            {
+              "name": "Competition Prep",
+              "duration": "12 semanas",
+              "difficulty": "Avanzado"
+            }
+          ]
+        },
+        "nutritionSupplements": {
+          "protein": ["Whey Protein", "Casein", "Plant Protein", "BCAAs"],
+          "preworkout": [
+            "Caffeine",
+            "Creatine",
+            "Beta-Alanine",
+            "Nitric Oxide"
+          ],
+          "recovery": ["Glutamine", "Electrolytes", "Omega-3", "Multivitamins"],
+          "weightLoss": [
+            "Fat Burners",
+            "Appetite Control",
+            "Metabolism Boosters"
+          ]
+        },
+        "fitnessTech": {
+          "trackers": ["Apple Watch", "Garmin", "Fitbit", "Whoop"],
+          "apps": ["MyFitnessPal", "Strava", "Nike Training", "Peloton"],
+          "smartEquipment": [
+            "Smart Treadmills",
+            "Connected Weights",
+            "AI Trainers"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "moda",
+      "title": "Moda & Estilo - Expresa tu Personalidad",
+      "blocks": {
+        "mainCategories": [
+          {
+            "name": "Ropa de Mujer",
+            "description": "Colecciones elegantes y versátiles",
+            "subcategories": ["Vestidos", "Blusas", "Pantalones", "Faldas"],
+            "topBrands": ["Zara", "H&M", "Mango", "Forever 21"],
+            "priceRange": { "min": 25, "max": 800 },
+            "icon": "👗",
+            "items": 1200,
+            "growth": "+150%"
+          },
+          {
+            "name": "Ropa de Hombre",
+            "description": "Estilo sofisticado y casual",
+            "subcategories": ["Camisas", "Pantalones", "Trajes", "Casacas"],
+            "topBrands": ["Zara", "H&M", "Mango", "Pull&Bear"],
+            "priceRange": { "min": 30, "max": 600 },
+            "icon": "👔",
+            "items": 950,
+            "growth": "+120%"
+          },
+          {
+            "name": "Calzado",
+            "description": "Zapatos para cada ocasión",
+            "subcategories": ["Tacones", "Deportivos", "Formales", "Casuales"],
+            "topBrands": ["Nike", "Adidas", "Steve Madden", "Nine West"],
+            "priceRange": { "min": 40, "max": 400 },
+            "icon": "👠",
+            "items": 680,
+            "growth": "+95%"
+          },
+          {
+            "name": "Accesorios",
+            "description": "Detalles que completan tu look",
+            "subcategories": ["Bolsos", "Joyería", "Relojes", "Cinturones"],
+            "topBrands": ["Michael Kors", "Fossil", "Pandora", "Swarovski"],
+            "priceRange": { "min": 15, "max": 500 },
+            "icon": "👜",
+            "items": 420,
+            "growth": "+180%"
+          }
+        ],
+        "seasonalCollections": {
+          "spring": {
+            "name": "Primavera 2025",
+            "colors": ["Pasteles", "Verdes", "Azules", "Rosas"],
+            "trends": [
+              "Flores",
+              "Transparencias",
+              "Volúmenes",
+              "Sostenibilidad"
+            ]
+          },
+          "summer": {
+            "name": "Verano 2025",
+            "colors": ["Blancos", "Amarillos", "Naranjas", "Turquesas"],
+            "trends": ["Crochet", "Lino", "Baño", "Vacaciones"]
+          },
+          "fall": {
+            "name": "Otoño 2025",
+            "colors": ["Marrón", "Verde oliva", "Burgundy", "Beige"],
+            "trends": ["Capas", "Tejidos", "Botas", "Oversized"]
+          },
+          "winter": {
+            "name": "Invierno 2025",
+            "colors": ["Negro", "Gris", "Azul marino", "Rojo"],
+            "trends": ["Abrigos", "Lana", "Piel", "Lujo"]
+          }
+        },
+        "sustainableFashion": {
+          "ecoMaterials": [
+            "Bamboo",
+            "Organic Cotton",
+            "Recycled Polyester",
+            "Hemp"
+          ],
+          "ethicalBrands": [
+            "Patagonia",
+            "Eileen Fisher",
+            "Reformation",
+            "Stella McCartney"
+          ],
+          "initiatives": [
+            "Carbon Neutral",
+            "Fair Trade",
+            "Circular Fashion",
+            "Zero Waste"
+          ]
+        },
+        "sizeGuide": {
+          "women": ["XS", "S", "M", "L", "XL", "XXL", "Plus Size"],
+          "men": ["XS", "S", "M", "L", "XL", "XXL", "Big & Tall"],
+          "shoes": ["5", "6", "7", "8", "9", "10", "11", "12"],
+          "international": ["US", "EU", "UK", "JP", "AU"]
+        }
+      }
+    },
+    {
+      "slug": "tech",
+      "title": "Tecnología & Innovación - El Futuro es Ahora",
+      "blocks": {
+        "mainCategories": [
+          {
+            "name": "Smartphones",
+            "description": "Los últimos dispositivos móviles",
+            "subcategories": [
+              "iPhone",
+              "Android",
+              "Foldables",
+              "Gaming Phones"
+            ],
+            "topBrands": ["Apple", "Samsung", "Google", "OnePlus"],
+            "priceRange": { "min": 200, "max": 1500 },
+            "icon": "📱",
+            "items": 450,
+            "growth": "+85%"
+          },
+          {
+            "name": "Laptops",
+            "description": "Computadoras portátiles para cada necesidad",
+            "subcategories": ["Gaming", "Business", "Student", "Creative"],
+            "topBrands": ["Apple", "Dell", "HP", "Lenovo"],
+            "priceRange": { "min": 400, "max": 4000 },
+            "icon": "💻",
+            "items": 320,
+            "growth": "+120%"
+          },
+          {
+            "name": "Audio",
+            "description": "Experiencias de sonido inmersivas",
+            "subcategories": [
+              "Auriculares",
+              "Altavoces",
+              "Micrófonos",
+              "Streaming"
+            ],
+            "topBrands": ["Sony", "Bose", "Sennheiser", "Audio-Technica"],
+            "priceRange": { "min": 50, "max": 2000 },
+            "icon": "🎧",
+            "items": 280,
+            "growth": "+95%"
+          },
+          {
+            "name": "Smart Home",
+            "description": "Automatiza tu hogar con IoT",
+            "subcategories": [
+              "Asistentes",
+              "Iluminación",
+              "Seguridad",
+              "Climatización"
+            ],
+            "topBrands": ["Amazon", "Google", "Philips", "Ring"],
+            "priceRange": { "min": 30, "max": 800 },
+            "icon": "🏠",
+            "items": 180,
+            "growth": "+250%"
+          }
+        ],
+        "emergingTech": {
+          "ai": ["ChatGPT", "Midjourney", "Copilot", "AI Assistants"],
+          "vr_ar": ["Meta Quest", "Apple Vision Pro", "Microsoft HoloLens"],
+          "blockchain": ["NFTs", "Cryptocurrency", "Smart Contracts", "DeFi"],
+          "robotics": ["Roomba", "Tesla Bot", "Industrial Robots", "Drones"]
+        },
+        "gamingTech": {
+          "consoles": [
+            "PlayStation 5",
+            "Xbox Series X",
+            "Nintendo Switch",
+            "Steam Deck"
+          ],
+          "pc_gaming": [
+            "RTX 4090",
+            "Ryzen 9",
+            "Gaming Mice",
+            "Mechanical Keyboards"
+          ],
+          "accessories": [
+            "Gaming Chairs",
+            "Streaming Equipment",
+            "VR Headsets",
+            "Controllers"
+          ]
+        },
+        "software": {
+          "productivity": [
+            "Microsoft 365",
+            "Adobe Creative Suite",
+            "Notion",
+            "Slack"
+          ],
+          "development": ["VS Code", "GitHub", "Docker", "AWS"],
+          "security": ["VPN", "Antivirus", "Password Managers", "2FA Apps"]
+        }
+      }
+    },
+    {
+      "slug": "about",
+      "title": "Nosotros - Conoce Nuestra Historia",
+      "blocks": {
+        "companyInfo": {
+          "founded": "2018",
+          "headquarters": "Lima, Perú",
+          "employees": "150+",
+          "mission": "Democratizar el acceso a productos premium a través de tecnología e innovación",
+          "vision": "Ser la plataforma líder en e-commerce personalizado en Latinoamérica"
+        },
+        "values": [
+          {
+            "name": "Innovación",
+            "description": "Siempre buscamos las últimas tecnologías para mejorar la experiencia del usuario",
+            "icon": "🚀"
+          },
+          {
+            "name": "Calidad",
+            "description": "Cada producto en nuestro catálogo cumple con los más altos estándares",
+            "icon": "⭐"
+          },
+          {
+            "name": "Sostenibilidad",
+            "description": "Comprometidos con el medio ambiente y prácticas comerciales responsables",
+            "icon": "🌱"
+          },
+          {
+            "name": "Comunidad",
+            "description": "Construimos relaciones duraderas con nuestros clientes y partners",
+            "icon": "🤝"
+          }
+        ],
+        "leadership": [
+          {
+            "name": "María González",
+            "position": "CEO & Fundadora",
+            "experience": "15+ años en e-commerce y tecnología",
+            "education": "MBA, Stanford University",
+            "photo": "/images/team/maria.jpg"
+          },
+          {
+            "name": "Carlos Rodríguez",
+            "position": "CTO",
+            "experience": "12+ años en desarrollo de software y AI",
+            "education": "MSc Computer Science, MIT",
+            "photo": "/images/team/carlos.jpg"
+          },
+          {
+            "name": "Ana Silva",
+            "position": "Head of Marketing",
+            "experience": "10+ años en marketing digital y crecimiento",
+            "education": "Marketing, Universidad de Lima",
+            "photo": "/images/team/ana.jpg"
+          }
+        ],
+        "achievements": [
+          {
+            "year": "2023",
+            "milestone": "1M+ clientes satisfechos",
+            "award": "Mejor E-commerce del Año - Perú"
+          },
+          {
+            "year": "2022",
+            "milestone": "Expansión a 5 países",
+            "award": "Innovación Tecnológica - Latam"
+          },
+          {
+            "year": "2021",
+            "milestone": "Plataforma AI personalizada",
+            "award": "Startup del Año - Startup Perú"
+          }
+        ],
+        "partnerships": {
+          "brands": ["Apple", "Samsung", "Nike", "Adidas", "Sony", "Microsoft"],
+          "logistics": ["FedEx", "DHL", "Serpost", "Olva"],
+          "payment": ["Visa", "Mastercard", "PayPal", "Yape", "Plin"],
+          "technology": ["AWS", "Google Cloud", "Shopify", "Stripe"]
+        }
+      }
+    },
+    {
+      "slug": "ofertas",
+      "title": "Ofertas Especiales - Los Mejores Precios del Mercado",
+      "blocks": {
+        "currentOffers": [
+          {
+            "name": "Flash Sale Tech",
+            "discount": "Hasta 60%",
+            "category": "Tecnología",
+            "endTime": "2025-08-30T23:59:59Z",
+            "products": ["iPhone 15", "MacBook Air", "AirPods Pro", "iPad"],
+            "badge": "⚡ Flash Sale"
+          },
+          {
+            "name": "Moda Outlet",
+            "discount": "Hasta 70%",
+            "category": "Moda",
+            "endTime": "2025-08-31T23:59:59Z",
+            "products": ["Vestidos", "Zapatos", "Bolsos", "Accesorios"],
+            "badge": "🔥 Hot Deal"
+          },
+          {
+            "name": "Fitness Week",
+            "discount": "Hasta 50%",
+            "category": "Fitness",
+            "endTime": "2025-09-01T23:59:59Z",
+            "products": [
+              "Treadmills",
+              "Pesas",
+              "Ropa Deportiva",
+              "Suplementos"
+            ],
+            "badge": "💪 Fitness Special"
+          }
+        ],
+        "seasonalSales": {
+          "backToSchool": {
+            "name": "Vuelta al Colegio",
+            "discount": "Hasta 40%",
+            "categories": ["Tecnología", "Mochilas", "Útiles", "Ropa"],
+            "startDate": "2025-01-15",
+            "endDate": "2025-03-15"
+          },
+          "summer": {
+            "name": "Ofertas de Verano",
+            "discount": "Hasta 55%",
+            "categories": ["Ropa de Playa", "Piscinas", "Deportes", "Viajes"],
+            "startDate": "2025-12-01",
+            "endDate": "2025-02-28"
+          },
+          "holidays": {
+            "name": "Festividades",
+            "discount": "Hasta 65%",
+            "categories": ["Decoración", "Regalos", "Electrónicos", "Juguetes"],
+            "startDate": "2025-11-15",
+            "endDate": "2025-01-15"
+          }
+        },
+        "memberExclusives": {
+          "basic": {
+            "name": "Ofertas Básicas",
+            "discount": "10% extra",
+            "access": "Inmediato",
+            "products": [
+              "Productos seleccionados",
+              "Ofertas semanales",
+              "Envío gratis"
+            ]
+          },
+          "pro": {
+            "name": "Ofertas Pro",
+            "discount": "20% extra",
+            "access": "24h antes",
+            "products": [
+              "Todas las ofertas",
+              "Acceso VIP",
+              "Regalos exclusivos"
+            ]
+          },
+          "enterprise": {
+            "name": "Ofertas Enterprise",
+            "discount": "30% extra",
+            "access": "48h antes",
+            "products": [
+              "Ofertas personalizadas",
+              "Concierge",
+              "Eventos exclusivos"
+            ]
+          }
+        },
+        "clearance": {
+          "name": "Liquidación Final",
+          "discount": "Hasta 80%",
+          "categories": [
+            "Últimas unidades",
+            "Productos discontinuados",
+            "Sobre stock"
+          ],
+          "endDate": "2025-09-30",
+          "note": "Sin devoluciones - Precios finales"
+        }
+      }
+    }
+  ]
+}

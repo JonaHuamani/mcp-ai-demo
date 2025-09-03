@@ -1,0 +1,97 @@
+services:
+  # 🧠 LLM local
+  ollama:
+    image: ollama/ollama:latest
+    container_name: mcp-ollama
+    ports: ["11434:11434"]
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+
+  # 🗄️ Base de datos para Strapi
+  db:
+    image: postgres:15-alpine
+    container_name: mcp-db
+    environment:
+      POSTGRES_DB: strapi
+      POSTGRES_USER: strapi
+      POSTGRES_PASSWORD: strapi
+    volumes:
+      - strapi_db_data:/var/lib/postgresql/data
+    ports: ["5432:5432"]
+    restart: unless-stopped
+
+  # 📑 CMS
+  strapi:
+    image: vshadbolt/strapi:latest-alpine
+    platform: linux/amd64
+    container_name: mcp-strapi
+    environment:
+      - NODE_ENV=development
+      - DATABASE_CLIENT=postgres
+      - DATABASE_HOST=db
+      - DATABASE_PORT=5432
+      - DATABASE_NAME=strapi
+      - DATABASE_USERNAME=strapi
+      - DATABASE_PASSWORD=strapi
+      # ⚠️ Rellénalos desde el panel cuando Strapi levante (Settings → API Tokens / Secrets)
+      - APP_KEYS=${STRAPI_APP_KEYS}
+      - ADMIN_JWT_SECRET=${STRAPI_ADMIN_JWT_SECRET}
+      - JWT_SECRET=${STRAPI_JWT_SECRET}
+    depends_on: [db]
+    ports:
+      - "1337:1337"
+      - "5173:5173"
+    volumes:
+      - strapi_app:/srv/app
+    restart: unless-stopped
+
+  # 🧩 Backend (Nest)
+  backend:
+    image: node:20
+    container_name: mcp-backend
+    working_dir: /app
+    volumes:
+      - ./backend:/app
+    command: sh -c "npm install && npm run start:dev"
+    environment:
+      - NODE_ENV=development
+      - PORT=3001
+      # LLM Configuration (choose one)
+      - LLM_PROVIDER=openai # 'ollama' or 'openai'
+      - OLLAMA_URL=http://ollama:11434
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_MODEL=gpt-4o-mini # or gpt-4o, gpt-3.5-turbo
+      # Strapi Configuration
+      - STRAPI_URL=http://strapi:1337
+      - STRAPI_TOKEN=${STRAPI_TOKEN}
+    ports:
+      - "3001:3001"
+    depends_on:
+      - ollama
+      - strapi
+    restart: unless-stopped
+
+  # 🌐 Frontend (Next)
+  frontend:
+    image: node:20
+    container_name: mcp-frontend
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+    command: sh -c "npm install && npm run dev -- --port 3000"
+    environment:
+      - NEXT_PUBLIC_API=http://localhost:3001
+      - WATCHPACK_POLLING=true
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  ollama_data:
+  strapi_db_data:
+  strapi_app:
